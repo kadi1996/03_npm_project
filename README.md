@@ -7,10 +7,10 @@ Hier wird gezeigt, wie man ein Projekt mit NPM initialisiert, Abhängigkeiten ve
 
 Features: 
 
-Verwendung von NPM für die Abhängigkeitsverwaltung
-Integration von Chart.js über ein CDN
-Beispieldaten visualisiert durch Balkendiagramme
-Demonstration von Git- und GitHub-Workflow zur Versionierung und Publikation
+- Verwendung von NPM für die Abhängigkeitsverwaltung
+- Integration von Chart.js über ein CDN
+- Beispieldaten visualisiert durch Balkendiagramme
+- Demonstration von Git- und GitHub-Workflow zur Versionierung und Publikation
 
 _________________
 English
@@ -23,7 +23,7 @@ It shows how to initialize a project with NPM, manage dependencies, and publish 
 
 Features:
 
-Use of NPM for dependency management
-Integration of Chart.js via a CDN
-Example data visualized through bar charts
-Demonstration of Git and GitHub workflow for versioning and publication
+- Use of NPM for dependency management
+- Integration of Chart.js via a CDN
+- Example data visualized through bar charts
+- Demonstration of Git and GitHub workflow for versioning and publication
