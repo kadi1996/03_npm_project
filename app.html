@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web App</title>
+    <!-- Einbindung der npm-Abhängigkeiten -->
+    <script src="node_modules/lodash/lodash.js"></script>
+    <script src="node_modules/moment/moment.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>Simple Web App / guenekad</h1>
+        <p>Current date and time: <span id="currentDateTime"></span></p>
+        <p>Random number: <span id="randomNumber"></span></p>
+    </div>
+
+    <script>
+        // Verwendung von Lodash
+        const randomNumber = _.random(1, 100);
+        document.getElementById('randomNumber').textContent = randomNumber;
+
+        // Verwendung von Moment.js
+        const currentDateTime = moment().format('MMMM Do YYYY, h:mm:ss a');
+        document.getElementById('currentDateTime').textContent = currentDateTime;
+    </script>
+</body>
+
+</html>
