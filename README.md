@@ -1,4 +1,4 @@
-https://kadi1996.github.io/03_npm_project/
+https://kadi1996.github.io/04_npm_project/
 
 Dieses Projekt ist eine praktische Demonstration der Verwendung von NPM als Build-Tool zur Verwaltung von Abhängigkeiten in Webprojekten. 
 Durch die Integration der Chart.js-Bibliothek illustriere ich, wie man NPM nutzen kann, um externe Bibliotheken effizient zu verwalten und Datenvisualisierungen ansprechend darzustellen. 
