@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <title>Chart.js Beispiel</title>
-</head>
-<body>
-    <canvas id="myChart"></canvas>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="node_modules/chart.js/dist/chart.umd.js"></script>
+    <title>DevOps Chart</title>
+</head>
+<!-- Kadircan Güney / guenekad -->
+
+<body>
+    <canvas id="myChart" width="400" height="400"></canvas>
     <script>
-//Kadircan Güney / guenekad
         var ctx = document.getElementById('myChart').getContext('2d');
         var myChart = new Chart(ctx, {
-            type: 'bar', // Der Typ des Diagramms: bar, line, pie, etc.
+            type: 'bar',
             data: {
-                labels: ['Rot', 'Blau', 'Gelb', 'Grün', 'Lila', 'Orange'],
+                labels: ['Dev', 'Ops', 'DevOps', 'IT', 'Hardware', 'Software'],
                 datasets: [{
-                    label: '# der Stimmen',
+                    label: '# of Votes',
                     data: [12, 19, 3, 5, 2, 3],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
@@ -39,14 +41,15 @@
             },
             options: {
                 scales: {
-                    yAxes: [{
+                    y: {
                         ticks: {
                             beginAtZero: true
                         }
-                    }]
+                    }
                 }
             }
         });
     </script>
 </body>
+
 </html>
